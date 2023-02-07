@@ -19,12 +19,9 @@
         "postcss": "^8.1.14",
         "resolve-url-loader": "^5.0.0",
         "sass": "^1.32.11",
-        "sass-loader": "^11.0.1",
-        "vue-loader": "^17.0.0"
+        "sass-loader": "^11.0.1"
     },
     "dependencies": {
-        "autoprefixer": "10.4.5",
-        "vue": "^3.2.33",
-        "vue-router": "^4.0.13"
+        "autoprefixer": "10.4.5"
     }
 }
