@@ -57,7 +57,7 @@ Optymalizacja tras w cache
 php artisan route:cache
 ```
 
-PhpStorm
+CMD
 
 ```
 php artisan serve
