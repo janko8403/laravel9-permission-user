@@ -14,19 +14,7 @@ class GeneratePass {
         }
         return implode($pass);
     }
-
-    public function rememberToken() {
-        $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
-        $token = array();
-        $alphaLength = strlen($alphabet) - 1;
-        for ($i = 0; $i < 20; $i++) {
-            $n = rand(0, $alphaLength);
-            $token[] = $alphabet[$n];
-        }
-        return implode($token);
-    }
-
+    
 }
-
 
 ?>

@@ -39,7 +39,6 @@ class AdminController extends Controller
      */
     public function create(Request $request)
     {
-
         $this->validate($request, [
             'name' => 'required', 'surname' => 'required', 'email' => 'required|unique:users'], [
             'required' => 'Required', 'unique' => 'Take unique email']
@@ -69,6 +68,11 @@ class AdminController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate($request, [
+            'name' => 'required', 'surname' => 'required'], [
+            'required' => 'Required']
+        );
+
         $this->adminRepository->updateUser($request, $id);
         return redirect('/users');
     }
