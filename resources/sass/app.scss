@@ -1,0 +1,17 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+td,
+th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    height: 40px;
+}
